@@ -1,0 +1,4 @@
+#move documentation files outside project
+#only show single plot per photodiode for debugging, other data only gets saved
+#prioritize thread somehow maybe?
+#automatic led light level finding

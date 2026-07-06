@@ -1,0 +1,11 @@
+[Unit]
+Description=Pi health monitor
+After=boot.target
+
+[Service]
+ExecStart=/home/pi/Projects/FlapometerCpp/pi_health_monitor.sh
+Restart=on-failure
+User=pi
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,40 @@
+SPHERE Header Example:                 Explanation:                   
+    //-s3 denotes a string of 3
+    //-i denotes integer
+    NIST_1A                            (type of header)     
+    1024                               (size of header)     
+    database_id -s3 RM1                (databse type)                 
+    database_version -s3 1.0           (database version)                         
+    utterance_id -s11 aks0_st0783      (utterance identifier)                             
+    channel_count -i 1                 (number of channels)                 
+    sample_count -i 50074              (number of samples)                     
+    sample_rate -i 16000               (sample rate)                     
+    sample_min -i -2032                (minimum amplitude)                 
+    sample_max -i 2708                 (maximum amplitude)                 
+    sample_n_bytes -i 2                (number of bytes per sample)                 
+    sample_byte_format -s2 10          (byte format)                            //01 is big endian 10 is little endian         
+    sample_sig_bits -i 16              (number of bits per sample)                     
+    end_head                           (ends the header)         
+
+    (binary audio data follows) 	   (signed short integer-valued data)                                 
+
+
+
+              
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    

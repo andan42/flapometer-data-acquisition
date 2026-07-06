@@ -1,4 +1,48 @@
-# FlapometerCpp
+# Flapometer – Data Acquisition Software
+*(See below for step by step build and deployment instructions)*
+
+## Overview
+
+This repository contains the complete C++ data acquisition software developed for the **Flapometer**, a prototype spectrophotometric medical device designed for continuous monitoring of tissue perfusion. 
+
+## Author
+
+The software was developed and implemented by me from the ground up, along with the hardware and data analysis software, as part of my M.D. thesis at the University of Medicine and Pharmacy "Carol Davila", Bucharest.
+
+## Hardware
+
+The software is developed to run on Raspberry Pi and was developed and tested on a Raspberry Pi 3 Model B+. The custom data acquisition hardware is built around MAX86171 Analog Front End chips, purpose-built LED arrays and VEMD8080 PIN photodiodes. Hardware design files (schematics, PCB layout or other CAD files) are not included in this repository.
+
+## Data analysis
+
+This repository only contains the C++ data acquisition software. The entire data analysis pipeline, including signal processing, spectrophotometric analysis and proposed ischemia detection algorithms are implemented in Python and will be published independently.
+
+## Features
+
+- Real-time acquisition of spectrophotometric sensor data
+- I²C implementation for MAX86171 Analog Front End data acquisition
+- Multi-I²C sensor architecture
+- Modular C++ codebase
+- Integration with a local REST API
+
+## Repository Contents
+
+```
+src/    Source code (source and header files)
+documentation/    Useful references for MAX86171 Analog Front End
+test/    Unit tests
+```
+
+## Disclaimer
+
+This repository contains research software developed for a proof-of-concept prototype medical device.
+
+No patient-identifiable data or confidential clinical data are included.
+
+This software is intended for research and educational purposes only and is **not** intended for clinical use... yet
+
+---
+
 ## Raspberry Pi setup instructions for compiling project
 
 ### Enable I2C interface:

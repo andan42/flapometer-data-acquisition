@@ -13,6 +13,8 @@ The software was developed and implemented by me from the ground up, along with 
 
 The software is developed to run on Raspberry Pi and was developed and tested on a Raspberry Pi 3 Model B+. The custom data acquisition hardware is built around MAX86171 Analog Front End chips, purpose-built LED arrays and VEMD8080 PIN photodiodes. Hardware design files (schematics, PCB layout or other CAD files) are not included in this repository.
 
+![Flapometer sensor](documentation/sensor1.jpg)
+
 ## Data analysis
 
 This repository only contains the C++ data acquisition software. The entire data analysis pipeline, including signal processing, spectrophotometric analysis and proposed ischemia detection algorithms are implemented in Python and will be published independently.

@@ -17,7 +17,7 @@ The software is developed to run on Raspberry Pi and was developed and tested on
 
 ## Data analysis
 
-This repository only contains the C++ data acquisition software. The entire data analysis pipeline, including signal processing, spectrophotometric analysis and proposed ischemia detection algorithms are implemented in Python and will be published independently.
+This repository only contains the C++ data acquisition software. The entire data analysis pipeline, including signal processing, spectrophotometric analysis and proposed ischemia detection algorithms are implemented in Python. A demo notebook of the algorithm can be found here: https://github.com/andan42/flapometer-data-analysis
 
 ## Features
 

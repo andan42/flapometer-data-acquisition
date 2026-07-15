@@ -129,18 +129,21 @@ Now the service will run on startup and restart the Raspberry Pi every 60 minute
 
 ## Disable the service (Prevent it from running)
 Run:
+```sh
     sudo systemctl stop pi_health_monitor.service
     sudo systemctl disable pi_health_monitor.service
-
+```
 ## Enable the service (Start it again)
 Run:
+```sh
     sudo systemctl enable pi_health_monitor.service
     sudo systemctl start pi_health_monitor.service
-
+```
 ## Check service status
 Run:
+```sh
     systemctl status pi_health_monitor.service
-
+```
 ---
 
 ## Troubleshooting
